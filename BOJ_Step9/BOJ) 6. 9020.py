@@ -32,7 +32,7 @@ def prime_list(n):
     return [i for i in range(2, n+1) if is_prime[i] == True]
 
 primes = prime_list(10000)  # 소수 리스트 찾기
-n = 9996
+
 T = int(input())
 for _ in range(T):
     n = int(sys.stdin.readline())
